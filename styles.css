@@ -16,7 +16,7 @@
 
 .headerlinks {
     display:flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .container1 {
@@ -36,7 +36,6 @@
             justify-content: center;
             width: 250px;
             height: 100px;
-            background-color: grey;
             padding: 20px;
             margin-left: 100px;
         }
@@ -171,7 +170,7 @@
 button {
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 7px 3px;
+    padding: 7px 15px;
     color: white;
     border: 0px;
 }
@@ -194,4 +193,13 @@ button {
     border-radius: 10px;
     margin-right: 60px;
     border: 2px solid white;
+}
+
+img {
+    max-width:100%;
+}
+
+#imgh {
+    max-height: 100%;
+    border-radius: 7px;
 }
